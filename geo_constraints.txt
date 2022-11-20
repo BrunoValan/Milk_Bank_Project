@@ -1,0 +1,80 @@
+def GeographicConstraint_rule1(m):
+	return m.Depo["Battery Park"] + m.Depo["City Hall"] <= 1
+m.GeographicConstraint1 = Constraint(rule=GeographicConstraint_rule1)
+
+def GeographicConstraint_rule2(m):
+	return m.Depo["Battery Park"] + m.Depo["Tribeca"] <= 1
+m.GeographicConstraint2 = Constraint(rule=GeographicConstraint_rule2)
+
+def GeographicConstraint_rule3(m):
+	return m.Depo["Battery Park"] + m.Depo["Wall Street"] <= 1
+m.GeographicConstraint3 = Constraint(rule=GeographicConstraint_rule3)
+
+def GeographicConstraint_rule4(m):
+	return m.Depo["Bowling Green"] + m.Depo["Wall Street"] <= 1
+m.GeographicConstraint4 = Constraint(rule=GeographicConstraint_rule4)
+
+def GeographicConstraint_rule5(m):
+	return m.Depo["Chelsea"] + m.Depo["Meatpacking District"] <= 1
+m.GeographicConstraint5 = Constraint(rule=GeographicConstraint_rule5)
+
+def GeographicConstraint_rule6(m):
+	return m.Depo["City Hall"] + m.Depo["Lower East Side"] <= 1
+m.GeographicConstraint6 = Constraint(rule=GeographicConstraint_rule6)
+
+def GeographicConstraint_rule7(m):
+	return m.Depo["City Hall"] + m.Depo["Tribeca"] <= 1
+m.GeographicConstraint7 = Constraint(rule=GeographicConstraint_rule7)
+
+def GeographicConstraint_rule8(m):
+	return m.Depo["City Hall"] + m.Depo["Wall Street"] <= 1
+m.GeographicConstraint8 = Constraint(rule=GeographicConstraint_rule8)
+
+def GeographicConstraint_rule9(m):
+	return m.Depo["East Village"] + m.Depo["NOHO"] <= 1
+m.GeographicConstraint9 = Constraint(rule=GeographicConstraint_rule9)
+
+def GeographicConstraint_rule10(m):
+	return m.Depo["East Village"] + m.Depo["Stuyvesant Park"] <= 1
+m.GeographicConstraint10 = Constraint(rule=GeographicConstraint_rule10)
+
+def GeographicConstraint_rule11(m):
+	return m.Depo["Hamilton Heights (upper west side)"] + m.Depo["Morningside Heights"] <= 1
+m.GeographicConstraint11 = Constraint(rule=GeographicConstraint_rule11)
+
+def GeographicConstraint_rule12(m):
+	return m.Depo["Harlem"] + m.Depo["Morningside Heights"] <= 1
+m.GeographicConstraint12 = Constraint(rule=GeographicConstraint_rule12)
+
+def GeographicConstraint_rule13(m):
+	return m.Depo["Meatpacking District"] + m.Depo["NOHO"] <= 1
+m.GeographicConstraint13 = Constraint(rule=GeographicConstraint_rule13)
+
+def GeographicConstraint_rule14(m):
+	return m.Depo["Midtown-East side"] + m.Depo["Murray Hill"] <= 1
+m.GeographicConstraint14 = Constraint(rule=GeographicConstraint_rule14)
+
+def GeographicConstraint_rule15(m):
+	return m.Depo["Midtown-East side"] + m.Depo["Roosevelt Island"] <= 1
+m.GeographicConstraint15 = Constraint(rule=GeographicConstraint_rule15)
+
+def GeographicConstraint_rule16(m):
+	return m.Depo["Midtown-West side"] + m.Depo["upper west side"] <= 1
+m.GeographicConstraint16 = Constraint(rule=GeographicConstraint_rule16)
+
+def GeographicConstraint_rule17(m):
+	return m.Depo["Murray Hill"] + m.Depo["Stuyvesant Park"] <= 1
+m.GeographicConstraint17 = Constraint(rule=GeographicConstraint_rule17)
+
+def GeographicConstraint_rule18(m):
+	return m.Depo["NOHO"] + m.Depo["Tribeca"] <= 1
+m.GeographicConstraint18 = Constraint(rule=GeographicConstraint_rule18)
+
+def GeographicConstraint_rule19(m):
+	return m.Depo["Roosevelt Island"] + m.Depo["upper east side"] <= 1
+m.GeographicConstraint19 = Constraint(rule=GeographicConstraint_rule19)
+
+def GeographicConstraint_rule20(m):
+	return m.Depo["Tribeca"] + m.Depo["Wall Street"] <= 1
+m.GeographicConstraint20 = Constraint(rule=GeographicConstraint_rule20)
+
